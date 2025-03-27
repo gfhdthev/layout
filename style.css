@@ -1,21 +1,46 @@
-.book_a_demo {
-    background-color: blue;
-    color: white;
-    border: none;
-    height: 29px;
-    width: 105px;
+body {
+    font-family: "Inter", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
 }
-
-.no_fon {
-    border: none;
-    background-color: white;
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+.header-left {
+    display: flex;
+}
+.header-left img{
+    margin-right: 36px;
+}
+.spisok-one {
+    display: flex;
+    padding: 0;
+}
 li {
-    color: white;
+    list-style-type: none;
+    margin-right: 24px;
 }
-
 a {
     text-decoration: none;
-    color: grey;
+    color: #33383f;
+    font-size: 15px;
+}
+a:hover {
+    color: #0070a0;
+}
+.sing-in {
+    font-size: 15px;
+    color: #0070a0;
+    border: none;
+    background: none;
+}
+.demo {
+    border: none;
+    color: #ffffff;
+    padding: 6px 20px;
+    background-color: #0070a0;
+    font-size: 15px;
+    margin-left: 31px;
 }
