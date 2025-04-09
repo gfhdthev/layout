@@ -1,6 +1,8 @@
 body {
     font-family: "Inter", sans-serif;
-    max-width: 1440px;
+}
+.conteiner {
+    max-width: 1130px;
     margin: 0 auto;
 }
 .header-flex{
@@ -120,4 +122,44 @@ a:hover {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 13px;
+}
+.fourth-section {
+    background-color: #F7F9FA;
+    margin-top: 120px;
+}
+#f-s-h2 {
+    font-family: 'fraunces';
+    font-weight: 500;
+    font-size: 42px;
+    width: 580px;
+    margin-bottom: 60px;
+}
+.f-s-h3 {
+    font-size: 21px;
+    font-weight: 400;
+}
+.f-s-button::after {
+    content: url(assets/strl-vniz.svg);
+}
+.f-s-button {
+    height: fit-content;
+    border: none;
+    background: none;
+    margin-top: 15px;
+}
+.f-s-block {
+    width: 450px;
+    border: 1px solid #C2CDD8;
+    border-left-style: none;
+    border-right-style: none;
+    margin-bottom: 1px;
+    display: flex;
+}
+.f-s-margin {
+    margin-left: 21px;
+}
+.f-s-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
