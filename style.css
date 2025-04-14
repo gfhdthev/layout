@@ -133,10 +133,12 @@ a:hover {
     font-size: 42px;
     width: 580px;
     margin-bottom: 60px;
+    margin-top: 80px;
 }
 .f-s-h3 {
     font-size: 21px;
     font-weight: 400;
+    margin: 0;
 }
 .f-s-button::after {
     content: url(assets/strl-vniz.svg);
@@ -154,6 +156,9 @@ a:hover {
     border-right-style: none;
     margin-bottom: 1px;
     display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+    padding-bottom: 9px;
 }
 .f-s-margin {
     margin-left: 21px;
@@ -162,4 +167,74 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.f-s-block-img {
+    display: flex;
+    align-items: start;
+}
+.f2-s-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 120px auto;
+}
+.five-section h2 {
+    font-family: 'fraunces';
+    font-weight: 500;
+    font-size: 41px;
+    width: 250px;
+}
+.five-section h3 {
+    font-family: 'fraunces';
+    font-size: 25px;
+    font-weight: 400;
+}
+.five-section p {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.f2-s-three_div {
+    display: flex;
+    align-items: end;
+    width: 730px;
+}
+.f2-s-divs:nth-child(even) {
+    margin: 0 32px;
+}
+.six-section {
+    background-color: #006B99;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #ffffff;
+}
+.s-s-div {
+    display: flex;
+    justify-content: space-between;
+}
+.six-section p {
+    width: 430px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.six-section h2 {
+    font-family: 'fraunces';
+    font-size: 42px;
+    width: 350px;
+    font-weight: 200;
+    letter-spacing: 0.2px;
+}
+.six-section button {
+    margin-top: 27px;
+    font-weight: 300;
+}
+.s-s-li:nth-child(2) {
+    margin: 11px 0;
+}
+.s-s-li {
+    list-style-image: url(assets/s-s-vector.svg);
+    font-weight: 300;
+}
+.six-section ul {
+    padding-left: 34px;
 }
