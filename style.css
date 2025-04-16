@@ -126,14 +126,13 @@ a:hover {
 .fourth-section {
     background-color: #F7F9FA;
     margin-top: 120px;
+    padding-top: 50px;
 }
 #f-s-h2 {
     font-family: 'fraunces';
     font-weight: 500;
     font-size: 42px;
     width: 580px;
-    margin-bottom: 60px;
-    margin-top: 80px;
 }
 .f-s-h3 {
     font-size: 21px;
@@ -147,7 +146,6 @@ a:hover {
     height: fit-content;
     border: none;
     background: none;
-    margin-top: 15px;
 }
 .f-s-block {
     width: 450px;
@@ -227,6 +225,7 @@ a:hover {
 .six-section button {
     margin-top: 27px;
     font-weight: 300;
+    margin-left: 23px;
 }
 .s-s-li:nth-child(2) {
     margin: 11px 0;
@@ -237,4 +236,63 @@ a:hover {
 }
 .six-section ul {
     padding-left: 34px;
+}
+.seven-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.seven-section h2{
+    font-family: 'Fraunces';
+    font-size: 42px;
+    letter-spacing: 0.2px;
+}
+#sev-s-p {
+    width: 550px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+}
+#sev-s-fours {
+    display: flex;
+}
+#sev-s-fours div {
+    width: 235px;
+    height: 218px;
+    margin-top: 65px;
+    margin-right: 64px;
+}
+#sev-s-fours p {
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    line-height: 24px;
+}
+#sev-s-fours h3 {
+    font-family: 'Fraunces';
+    font-size: 25px;
+    width: 100;
+    margin: 15px auto 13px auto;
+}
+.eight-section {
+    background-color: #F7F9FA;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.e-s-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+.e-s-top button {
+    border: none;
+    background-color: #F7F9FA;
+    color: #0070A0;
+}
+.e-s-block {
+    display: flex;
+}
+.e-s-block div {
+    width: 355px;
+    height: 487px;
+    margin-right: 33px;
+    background-color: #ffffff;
 }
