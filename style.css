@@ -358,39 +358,60 @@ a:hover {
 .n-s-mar {
     margin-right: 32px;
 }
-.t-s-top-div {
-    display: flex;
-    margin-bottom: 100px;
-}
-footer {
-    font-family: 'Inter';
-}
-.t-s-top-div h6 {
+footer h6 {
     font-size: 15px;
+    font-weight: 400;
 }
-.t-s-top-div p {
-    font-size: 14px;
+.footer-up{
+    margin: 50px auto 64px auto;
+    display: flex;
+    justify-content: space-between;
 }
-.t-s-top-first {
-    width: 153px;
-    height: 216px;
-    margin-right: 305px;
+.footer-about{
+    width: 500px;
 }
-.t-s-top-first a{
-    color: #0070A0;
+.footer-about img{
+    margin-bottom: 19px;
 }
-.t-s-top-second {
-    width: 216px;
-    height: 216px;
+.footer-about-link{
+    color: #0070a0;
 }
-.t-s-top-third {
-    width: 216px;
-    height: 216px;
+.footer-nav a{
+    display: block;
+    color: #626A72;
+    margin-bottom: 10px;
 }
-.t-s-top-fourth {
-    width: 216px;
-    height: 216px;
+.footer-nav {
+    width: 300px;
 }
-.t-s-top-fourth p {
+.footer-news{
+    width: 350px;
+}
+.footer-news p {
     font-size: 16px;
+    width: 210px;
+}
+.footer-news input,
+.footer-news input:focus
+{
+    border: none;
+    border-bottom: 1px solid #C2CDD8;
+    padding: 17px 0 7px 15px;
+    outline: none;
+}
+.footer-news::after{
+    content: url(assets/strelka.png)
+}
+.footer-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 35px 0;
+    border-top:1px solid #dee5eb ;
+}
+.footer-down p{
+    margin: 0;
+}
+.linked-in{
+    margin: 0 20px;
 }
