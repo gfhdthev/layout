@@ -277,6 +277,20 @@ a:hover {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+.eight-section h2 {
+    font-family: 'Fraunces';
+    font-weight: 500;
+    font-size: 42px;
+}
+.eight-section h3 {
+    font-family: 'Fraunces';
+    font-weight: 500;
+    font-size: 25px;
+}
+.eight-section p {
+    font-family: 'Inter';
+    font-size: 14px;
+}
 .e-s-top {
     display: flex;
     justify-content: space-between;
@@ -286,13 +300,97 @@ a:hover {
     border: none;
     background-color: #F7F9FA;
     color: #0070A0;
+    margin-right: 50px;
 }
 .e-s-block {
     display: flex;
 }
-.e-s-block div {
-    width: 355px;
+.e-s-block-div {
     height: 487px;
-    margin-right: 33px;
+    width: 355px;
+    margin-right: 32px;
     background-color: #ffffff;
+    padding-bottom: 28px;
+}
+.e-s-data {
+    font-size: 12px;
+}
+.e-s-m-div {
+    padding: 25px 24px 28px 24px;
+}
+.e-s-block button {
+    border: none;
+    background-color: #E6F7FF;
+    color: #2C90C9;
+    padding: 4px 12px;
+}
+.n-s-div {
+    background-color: #E6F7FF;
+    padding: 64px 400px 48px 64px;
+}
+.n-s-div h2 {
+    font-size: 42px;
+    font-family: 'Fraunces';
+    font-weight: 400;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    width: 448px;
+}
+.n-s-top p {
+    font-family: 'Inter';
+    font-size: 18px;
+    width: 481px;
+    margin-top: 18px;
+}
+.n-s-top button {
+    width: 174px;
+    height: 43px;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+.n-s-bottom{
+    display: flex;
+    width: 500px;
+}
+.n-s-bottom-p::before {
+    content: url(assets/vector.svg);
+}
+.n-s-mar {
+    margin-right: 32px;
+}
+.t-s-top-div {
+    display: flex;
+    margin-bottom: 100px;
+}
+footer {
+    font-family: 'Inter';
+}
+.t-s-top-div h6 {
+    font-size: 15px;
+}
+.t-s-top-div p {
+    font-size: 14px;
+}
+.t-s-top-first {
+    width: 153px;
+    height: 216px;
+    margin-right: 305px;
+}
+.t-s-top-first a{
+    color: #0070A0;
+}
+.t-s-top-second {
+    width: 216px;
+    height: 216px;
+}
+.t-s-top-third {
+    width: 216px;
+    height: 216px;
+}
+.t-s-top-fourth {
+    width: 216px;
+    height: 216px;
+}
+.t-s-top-fourth p {
+    font-size: 16px;
 }
